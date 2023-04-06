@@ -41,3 +41,30 @@ pub fn add(a: f64, b: f64) -> f64{
 pub fn subtract(a: f64, b: f64) -> f64{
     return a-b;
 }
+
+pub fn iseven(num: i64) -> bool{
+    if num <0{
+        num=abs(num);
+    }
+
+    if num%2==0{
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+pub fn isodd(num: i64) -> bool{
+    if num <0{
+        num=abs(num);
+    }
+
+    if num%2==0{
+        return false
+    }
+    else{
+        return true
+    }
+}
+
