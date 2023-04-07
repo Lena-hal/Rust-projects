@@ -1,7 +1,4 @@
 fn main() {
-    let mut arr = [5,2,7,1,3];
-    insert(&mut arr);
-    println!("{:?}",arr);
 }
 
 pub fn bubble(arr: &mut [i64]){
