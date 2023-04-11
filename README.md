@@ -1,2 +1,2 @@
 # Rust-projects
- Projects made in rust while learning this language
+ Projects made in Rust while learning this language
